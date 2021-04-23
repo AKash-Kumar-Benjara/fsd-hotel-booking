@@ -1,0 +1,16 @@
+#img{
+    margin-top: 8%;
+    margin-left: 4%;
+}
+#booking-form{
+    margin:0% 4% 1% 4%;
+}
+#hotel-desc{
+    margin-left: 4%;
+    padding-bottom: 6%;
+    position: absolute;
+}
+.hotel-image{
+    height:500px;
+    width:500px;
+}
