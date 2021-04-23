@@ -1,0 +1,29 @@
+.view-menu{
+    text-decoration: none;
+    color: black;
+    float:inline-end;
+}
+#listview{
+    scroll-behavior:smooth;
+}
+#mapview{
+    scroll-behavior: smooth;
+    display: none;
+}
+.hotel{
+    margin-top: 2.4%;
+    margin-bottom: 1.8%;
+    margin-left: 4.2%;
+    margin-right: 4.2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
+    float:left;
+}
+.hotel-image{
+      height:250px;
+      width:250px;
+} 
+h3,p{
+     text-decoration: none;
+     color:black;
+}
