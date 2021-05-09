@@ -1,62 +1,76 @@
-body {
-    height: 100%;
+body{
     width: 100%;
-    margin: 0%;
+    height:100%;
+    margin:0;
     background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
 }
-header{
-    background-color: rosybrown;
-    position: fixed;
+.wrapper{
+    height:100%;
+    width:100%;
+}
+.content{
+    height: 100%;
+    overflow-y: auto;
+}
+.footer{
     width: 100%;
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0px;
+    z-index:+1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    height:64px;
+}
+.header{
+    width: 100%;
+    background-color: rosybrown;
+    position: sticky;
     top: 0;
-    z-index: 80;
+    z-index:+1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-footer{
-    background-color: rosybrown;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-#login{
-  right: 0%;
-  margin-top: 20px;
-  margin-right: 1%;
-  text-decoration: none;
-  position: absolute;
-  color: black;
-}
-
-#logo{
-    height:60px;
+.header>#h1>img{
+    height: 60px;
     width:60px;
-    margin: auto;
 }
-
-.social-media{
+.header>#h1>a>img{
+    height: 60px;
+    width:60px;
+}
+.footer>.social-media>span>a>img{
     height: 20px;
     width: 22px;
-    text-decoration: none;
 }
-
-.icons{
-    position: absolute;
-    right:1%;
-    align-items: center;
-    bottom:32%;
-
-}
-.contact-page{
-    bottom:32%;
-    margin-left: 1%;
+a{
     text-decoration: none;
-    position: absolute;
-    text-align: center;
     color: black;
 }
-
-.copyright{
+.header>#h1{
+    margin-left: 1%;
+}
+.header>#h2{
+    margin-right:2%;
+}
+.footer>.social-media{
+    margin-right: 2%;
+}
+.footer>.contact-us{
+    margin-left:2%;
+}
+.footer>.copyright>span{
     font-size: 10px;
-    text-align: center;
+}
+.loaderDiv{
+    position: relative;
+    display: none;
+}
+.loaderDiv>iframe{
+    width: 100%;
+    align-self: center;
 }
